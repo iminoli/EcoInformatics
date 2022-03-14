@@ -4,7 +4,7 @@ title: "About Me"
 
 - __Name:__ Ignacio Minoli
 - __Occupation:__ Specialist in Biodiversity Databases, GIS and R Programming for environmental decision making
-- __Highest Academic Degree:__ phD in Biological Sciences
+- __Highest Academic Degree:__ PhD in Biological Sciences
 - __Core Skills:__ Free Software - Open Source - Linux - R Programming - Bash-Shell Programming - Python Programming - HTML Programming - SublimeText - Rstudio.
 
 Here is a super cool photo of me doing one of my favorite things, trekking. 
