@@ -9,4 +9,5 @@ title: "About Me"
 
 Here is a super cool photo of me doing one of my favorite things, trekking. 
 
-<img src="blob/master/images/foto_perfil_2.jpg">
+![Book logo](/blob/master/images/foto_perfil_2.jpg)
+<img src="/blob/master/images/foto_perfil_2.jpg">
