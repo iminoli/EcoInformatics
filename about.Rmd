@@ -9,4 +9,4 @@ title: "About Me"
 
 Here is a super cool photo of me doing one of my favorite things, trekking. 
 
-![](https://www.dropbox.com/s/12c8vls2usz38vy/foto_perfil_2.jpg?dl=1)
+![](/home/ignacio/Documents/GitHub/PersonalWebSite/PersonalWebSite/pictures/foto_perfil_2.jpg)
