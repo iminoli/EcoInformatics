@@ -9,4 +9,4 @@ title: "About Me"
 
 Here is a super cool photo of me doing one of my favorite things, trekking. 
 
-![](/home/ignacio/Documents/GitHub/PersonalWebSite/PersonalWebSite/pictures/foto_perfil_2.jpg)
+![](<img src="../pictures/foto_perfil_2.jpg">)
