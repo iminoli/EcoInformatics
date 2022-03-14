@@ -1,0 +1,7 @@
+---
+title: "education"
+output: html_document
+---
+
+
+- __Under construction:__ Ignacio Minoli
