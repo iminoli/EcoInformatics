@@ -9,4 +9,4 @@ title: "About Me"
 
 Here is a super cool photo of me doing one of my favorite things, trekking. 
 
-!(<img src="../images/foto_perfil_2.jpg">
+<img src="../images/foto_perfil_2.jpg">
