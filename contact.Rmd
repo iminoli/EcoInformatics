@@ -7,11 +7,11 @@ output: html_document
   method="POST">
   <label>
     Your email:<br>
-    <input type="email" name="email">
+    <input type="email" name="email" size="35">
   </label><br><br>
   <label>
     Your message:<br>
-    <textarea name="message"></textarea>
+    <textarea name="message" cols="35" rows="10"></textarea>
   </label><br>
   <!-- your other form fields go here -->
   <button type="submit">Send</button>
