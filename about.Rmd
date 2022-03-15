@@ -9,12 +9,23 @@ title: "About Me"
 
 Here is a super cool photo of me doing one of my favorite things, trekking. 
 
-![](images/foto_perfil_2.jpg)
+![](images/foto_perfil_1.jpg)
 
-You can checkout all my background and experience here:
+<br>
+You can checkout all my background and experience <b>here</b>:
+<br>
 
-
-```{r echo=FALSE}
-# a single file, list or directory. https://bookdown.org/yihui/rmarkdown-cookbook/embed-file.html
-xfun::embed_file("pdf/IM_English_CV.pdf")
+```{r echo=F, out.width="100%", out.height="500"}
+knitr::include_graphics('pdf/IM_English_CV.pdf')
 ```
+
+
+
+<!-- # ```{r echo=FALSE} -->
+<!-- # # a single file, list or directory. https://bookdown.org/yihui/rmarkdown-cookbook/embed-file.html -->
+<!-- # xfun::embed_file("pdf/IM_English_CV.pdf") -->
+<!-- # ``` -->
+<!-- #  -->
+<!-- # Or here # https://community.rstudio.com/t/how-to-link-to-a-file-from-an-included-markdown-document-in-a-shiny-app/45907/2 -->
+<!-- #  -->
+<!-- # ![](pdf/IM_English_CV.pdf) -->
