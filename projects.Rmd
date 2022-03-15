@@ -4,18 +4,34 @@ output: html_document
 ---
 
 
-- __Under construction:__ Ignacio Minoli
+- __Some of my on going projects...__
+<br>
 
-Sometimes I like to do projects and then post them on the internet for the whole world to benefit!
-here's some examples. 
+## [Red Argentina de Monitoreo de Fauna Atropellada - RAMFA](https://fauna-atropellada.org.ar/)
 
-## [Data Visualization in R](http://nickstrayer.me/visualization_in_r/)
+- Project Creator - Collaborator “Red Argentina de Monitoreo de Fauna Atropellada - RAMFA”. Observatorio de Biodiversidad del Bosque Atlántico (OBBA), Instituto de Biología Subtropical (IBS) - Nodo Iguazú - Unidad Ejecutora del Consejo Nacional de Investigaciones Científicas y Técnicas - Universidad Nacional de Misiones.
+- From 2019 to present.
+- I am the database administrator and developer of the citizen science mobile app, manager of the outcome databases.
+- I perform the spatial analysis - metrics - plots, web applications and maps.
+- I am also one of the reptiles curator.
+<br>
 
-- An RMarkdown presentation on the common mistakes made in visualization and how to fix them.
-- Includes a GitHub repo for access to all the code.
-- Look at how high quality my work is, hire and or collaborate with me. 
+## [MapBiomas Trinational Atlantic Forest](https://bosqueatlantico.mapbiomas.org/es)
 
-## [Statistical Plots](http://bl.ocks.org/nstrayer/37a503dd1db369a8f7e3ce21757e19ee)
+- Project Collaborator “MapBiomas Trinational Atlantic Forest”. Created as a collaborative network of specialists from Argentina, Brazil and Paraguay, in topics such as land use, satellite remote sensing, GIS and programming.
+- From 2019 to present.
+- I use google earth engine to collect samples of different landuse or landcover.
+- I participate in successive discussions and improvements in the MapBiomas versions or collections and in the applied methods.
+<br>
 
-- Interactive plots of things
-- I can code!
+## [Citizen Science Apps](https://five.epicollect.net/)
+
+- Project Creator - Collaborator in:<br>
+  "Especies Amenazadas Ciencia Colectiva"<br>
+  "Camaras Trampa Ciencia Colectiva"<br>
+  "Camaras Trampa Proyecto Yaguarete"<br>
+  "Red Argentina De Monitoreo De Fauna Atropellada"<br>
+  "Atropellamientos Fauna Nea".
+- From 2020 to present.
+- I develop the from applications for entering spatial data through cell phones and management of the outcome databases.
+<br>
