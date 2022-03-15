@@ -15,7 +15,8 @@ You can checkout all my background and experience <b>here</b>:
 knitr::include_graphics('pdf/IM_English_CV.pdf')
 ```
 
-
+<br>
+<br>
 Here is a super cool photo of me doing one of my favorite things, trekking. 
 
 ![](images/foto_perfil_1.jpg)
