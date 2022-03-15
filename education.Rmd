@@ -3,10 +3,6 @@ title: "Education"
 output: html_document
 ---
 
-
-- __Under construction:__ Ignacio Minoli
-
-
 ## [University degree](https://en.unne.edu.ar/index.php?lang=en)
 
 - Bachelor degree in Zoology. Facultad de Ciencias Exactas y Naturales y Agrimensura, Universidad Nacional del Nordeste. Corrientes. Argentina. March 1998 - 11 March 2006. Overall career average 7.00/10.
