@@ -10,3 +10,11 @@ title: "About Me"
 Here is a super cool photo of me doing one of my favorite things, trekking. 
 
 ![](images/foto_perfil_2.jpg)
+
+You can checkout all my background and experience here:
+
+
+```{r echo=FALSE}
+# a single file, list or directory. https://bookdown.org/yihui/rmarkdown-cookbook/embed-file.html
+xfun::embed_file("pdf/IM_English_CV.pdf")
+```
