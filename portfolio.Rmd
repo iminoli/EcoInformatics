@@ -4,4 +4,28 @@ output: html_document
 ---
 
 
-- __Under construction:__ Ignacio Minoli
+- __Under construction:__ 
+
+<img src="images/2AnnualAbsoluteTemperatureTrend.png" style="width:100%">
+
+Global absolute temperature change levels in celsius degrees.
+
+<img src="images/1AnnualCO2emissionTrend.png" style="width:100%">
+
+Global Co2 emmisions.
+
+<img src="images/Temp_CO2_bis.png" style="width:100%">
+
+Global absolute temperature change levels in celsius degrees with the CO2 emmissions.
+
+<img src="images/3DSPINpc1.2.3CompFitz.gif" style="width:100%">
+
+3-D PCA morpho space with morphometric variables in lizards.
+
+<img src="images/rich_celdas.png" style="width:100%">
+
+Lizard richness in Patagonia.
+
+<img src="images/Riqueza_lat_01.png" style="width:100%">
+
+Latitudinal lizard richness changes in Patagonia
