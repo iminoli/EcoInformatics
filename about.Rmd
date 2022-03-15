@@ -12,7 +12,8 @@ Specialist in Biodiversity Databases, GIS and R Programming for environmental de
 - __Highest Academic Degree:__<br>
 PhD in Biological Sciences
 - __Core Skills:__<br>
-Free Software - Open Source - Linux - R Programming - Bash-Shell Programming - Python Programming - HTML Programming - SublimeText - Rstudio.
+Free Software - Open Source - Linux - R Programming - Bash-Shell Programming - Python Programming - HTML Programming - SublimeText - Rstudio.<br>
+Biogeography, Databases, Cartography, Maps, Climate Change, Ecological Niche Modeling, GIS, Spatial Analysis.
 <br>
 
 - __Short Bio__<br>
@@ -33,11 +34,6 @@ knitr::include_graphics('pdf/IM_English_CV.pdf')
 ```
 
 <br>
-<br>
-Here is a super cool photo of me doing one of my favorite things, trekking. 
-
-![](images/foto_perfil_1.jpg)
-
 
 <!-- # ```{r echo=FALSE} -->
 <!-- # # a single file, list or directory. https://bookdown.org/yihui/rmarkdown-cookbook/embed-file.html -->
