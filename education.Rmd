@@ -10,7 +10,7 @@ output: html_document
 
 ## [Postgraduate degree](https://www.unc.edu.ar/english/)
 
-- PhD degree in Biological Sciences. Universidad Nacional de Córdoba. Admission: February 3rd, 2011. Graduate: March 18ht, 2015. Thesis topic: Determination of species boundaries in the fitzingerii group lizards of genus <i>Liolaemus</i> (Iguania: Liolaemini). Qualification: Outstanding.
+- PhD degree in Biological Sciences. Universidad Nacional de Córdoba. Admission: February 3rd, 2011. Graduate: March 18ht, 2015. Thesis topic: Determination of species boundaries in the <i>fitzingerii</i> group lizards of genus <i>Liolaemus</i> (Iguania: Liolaemini). Qualification: Outstanding.
 <br>
 
 ## [Postgraduate training courses]()
