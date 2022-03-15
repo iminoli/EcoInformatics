@@ -7,7 +7,7 @@ output: html_document
   method="POST">
   <label>
     Your email:<br>
-    <input type="email" name="email" size="35">
+    <input type="email" name="email" size="32">
   </label><br><br>
   <label>
     Your message:<br>
