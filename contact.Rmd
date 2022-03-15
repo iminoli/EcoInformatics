@@ -1,0 +1,18 @@
+---
+title: "Contact me"
+output: html_document
+---
+<!-- modify this form HTML and place wherever you want your form -->
+<form action="https://formspree.io/f/mayvboap"
+  method="POST">
+  <label>
+    Your email:<br>
+    <input type="email" name="email">
+  </label><br><br>
+  <label>
+    Your message:<br>
+    <textarea name="message"></textarea>
+  </label><br>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
