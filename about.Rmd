@@ -10,7 +10,7 @@ Ignacio Minoli
 - __Occupation:__<br>
 Specialist in Biodiversity Databases, GIS and R Programming for environmental decision making
 - __Highest Academic Degree:__<br>
-PhD in Biological Sciences
+<br>PhD in Biological Sciences
 - __Core Skills:__<br>
 Free Software - Open Source - Linux - R Programming - Bash-Shell Programming - Python Programming - HTML Programming - SublimeText - Rstudio.<br>
 Biogeography, Databases, Cartography, Maps, Climate Change, Ecological Niche Modeling, GIS, Spatial Analysis.
