@@ -36,7 +36,7 @@ knitr::include_graphics('pdf/IM_English_CV.pdf')
 ```
 <br>
 <br>
-If you can't see it on your cell phone, you can download it from __here__
+If you can't see it on your cell phone, you can download it directly from __here__
 ```{r echo=FALSE}
 xfun::embed_file("pdf/IM_English_CV.pdf")
 ```
