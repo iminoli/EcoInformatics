@@ -1,11 +1,8 @@
 ---
-title: "Portfolio"
-output: html_document
 title: "Portfolio in R"
 ---
 
-
-- __Under construction:__ 
+__Some examples of my R plots, maps and results ... still under construction:__ 
 
 <img src="images/2AnnualAbsoluteTemperatureTrend.png" style="width:100%">
 
