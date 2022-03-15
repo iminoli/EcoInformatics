@@ -32,8 +32,10 @@ You can checkout all my background and experience <b>here</b>:
 ```{r echo=F, out.width="100%", out.height="500"}
 knitr::include_graphics('pdf/IM_English_CV.pdf')
 ```
-
 <br>
+<br>
+If you can't see it on your cell phone, you can download it from __here__
+![](pdf/IM_English_CV.pdf)<br>
 
 <!-- # ```{r echo=FALSE} -->
 <!-- # # a single file, list or directory. https://bookdown.org/yihui/rmarkdown-cookbook/embed-file.html -->
