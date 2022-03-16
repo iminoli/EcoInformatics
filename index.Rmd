@@ -1,5 +1,5 @@
 ---
-title: "Ecoinformatics"
+title: "EcoInformatics"
 ---
 
 Still under construction .... comming soon __free R tutorials !!__
