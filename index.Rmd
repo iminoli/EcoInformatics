@@ -2,4 +2,4 @@
 title: "Personal Website"
 ---
 
-Still under construction .... soon __free R tutorials !!__
+Still under construction .... comming soon __free R tutorials !!__
