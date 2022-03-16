@@ -18,7 +18,7 @@ Global absolute temperature change levels in celsius degrees with the CO2 emmiss
 
 <img src="images/3DSPINpc1.2.3CompFitz.gif" style="width:100%">
 
-3-D PCA morpho space with morphometric variables in lizards.
+3D PCA morpho space with morphometric variables in lizards.
 
 <img src="images/rich_celdas.png" style="width:100%">
 
@@ -27,3 +27,10 @@ Lizard richness in Patagonia.
 <img src="images/Riqueza_lat_01.png" style="width:100%">
 
 Latitudinal lizard richness changes in Patagonia
+
+knitr::include_url("https://redargentinademonitoreodefaunaatropellada.shinyapps.io/RAMFA3_bis/")
+
+Example of shiny app for an interactive reactive map - filter
+
+<iframe src="https://redargentinademonitoreodefaunaatropellada.shinyapps.io/RAMFA3_bis/" height="450" width="820" style="border: 1px solid #464646;" allowfullscreen="" allow="autoplay"></iframe>
+
