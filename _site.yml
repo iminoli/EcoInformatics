@@ -11,7 +11,7 @@ navbar:
       href: projects.html
     - text: "Publications"
       href: publications.html
-    - text: "Portfolio"
+    - text: "Portfolio in R"
       href: portfolio.html
     - text: "About Me"
       href: about.html
