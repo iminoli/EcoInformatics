@@ -25,7 +25,7 @@ I moved to Buenos Aires where for two years I learned valuable computer skills w
 <br>
 Through all my working and academic experience, I specialized in biodiversity, biogeography, spatial ecology at the regional level, availability of environments, sampling - management of large databases with species presences. As a basis for my evolution and professional growth, I use only open source, multi-platform, free software (Linux as OS, programming in R, Python and Bash-Shell).<br>
 <br>
-Currently, I work at the Institute of Subtropical Biology (IBS) based in Puerto Iguazú, Misiones, Argentina, as Assistant Professional of CONICET, as administrator of the Biodiversity Database at the Atlantic Forest Biodiversity Observatory (OBBA), where I live with my wife Ana, my son Máximo and my daughter Miranda.<br>
+Currently, I work at the Institute of Subtropical Biology (IBS) based in Puerto Iguazú, Misiones, Argentina, in a Assistant Professional Position of CONICET-UNaM as administrator of the Biodiversity Database at the Atlantic Forest Biodiversity Observatory (OBBA), where I live with my wife Ana, my son Máximo and my daughter Miranda.<br>
 <br>
 
 You can checkout all my background and experience <b>here</b>:
