@@ -32,6 +32,6 @@ Latitudinal lizard richness changes in Patagonia
 
 Example of shiny app for an interactive reactive map - filter. test 1
 
-<iframe name="Filter" src="https://redargentinademonitoreodefaunaatropellada.shinyapps.io/RAMFA3_bis/" style='height: 100%; width: 100%;' frameborder="0" scrolling="yes" id="iframe">...</iframe>
+<iframe name="Filter" src="https://redargentinademonitoreodefaunaatropellada.shinyapps.io/RAMFA3_bis/" style='height: 900px; width: 100%;' frameborder="0" scrolling="yes" id="iframe">...</iframe>
 
 Example of shiny app for an interactive reactive map - filter. test 2
