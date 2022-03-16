@@ -28,10 +28,6 @@ Lizard richness in Patagonia.
 
 Latitudinal lizard richness changes in Patagonia
 
-<iframe src="https://redargentinademonitoreodefaunaatropellada.shinyapps.io/RAMFA3_bis/" style="width: 700px; height: 100%; border: 0px"></iframe>
-
-Example of shiny app for an interactive reactive map - filter. test 1
-
 <iframe name="Filter" src="https://redargentinademonitoreodefaunaatropellada.shinyapps.io/RAMFA3_bis/" style='height: 900px; width: 100%;' frameborder="0" scrolling="yes" id="iframe">...</iframe>
 
-Example of shiny app for an interactive reactive map - filter. test 2
+Example of shiny app for an interactive reactive map - filter.
