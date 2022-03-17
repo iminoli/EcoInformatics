@@ -28,10 +28,18 @@ Lizard richness in Patagonia.
 
 Latitudinal lizard richness changes in Patagonia
 
-<img src="images/NuevaEscala.png" style="width:100%">
-
-Environmental niche model projected to 2070 ac87 scenario for an endemic and threatened species of lizard
-
 <iframe name="Filter" src="https://redargentinademonitoreodefaunaatropellada.shinyapps.io/RAMFA3_bis/" style='height: 900px; width: 100%;' frameborder="0" scrolling="yes" id="iframe">...</iframe>
 
 Example of shiny app for an interactive reactive map - filter.
+
+<img src="images/raster_misiones.gif" style="width:100%">
+
+NDVI changes for Misiones Province for a year with rgee package (Google Earth Engine).<br>
+
+<iframe name="Filter" src="html/incendios_ctes.html" style='height: 900px; width: 100%;' frameborder="0" scrolling="yes" id="iframe">...</iframe>
+
+Example of html self embedded with rgee (Google Earth Engine) for fires of Corrientes Province with an interactive map. In red soil fire scars.<br>
+
+<img src="images/NuevaEscala.png" style="width:100%">
+
+Environmental niche model projected to 2070 ac87 scenario for an endemic and threatened species of lizard
