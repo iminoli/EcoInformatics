@@ -27,11 +27,11 @@ output: html_document
 <br>    
 
 ## Published book chapters<br>
-- Biogeography, Ecology and Spatial Patterns of Patagonian Lizards. (2020). __Minoli I.__, Pérez C.H.F., Morando M. & Avila L.J., p 189-216 in: Lizards of Patagonia: Diversity, Systematics, Biogeography and Biology of the Reptiles at the End of the World. Eds. Mariana Morando & Luciano Javier Avila. Life Sciences Series, Springer International Publishing AG, Gewerbestrasse 11, 6330 Cham, Switzerland.<br>
+- Biogeography, Ecology and Spatial Patterns of Patagonian Lizards. (2020). __Minoli I.__, Pérez C.H.F., Morando M. & Avila L.J., p 189-216 in: Lizards of Patagonia: Diversity, Systematics, Biogeography and Biology of the Reptiles at the End of the World. Eds. Mariana Morando & Luciano Javier Avila. Life Sciences Series, Springer International Publishing AG, Gewerbestrasse 11, 6330 Cham, Switzerland. doi: https://doi.org/10.1007/978-3-030-42752-8_8<br>
 <br>
-- Conservation concerns about the southernmost lizards of the World. (2020). Kacoliris F.P, __Minoli I.__, Kass C., & Di Pietro D.O., p 407-422 in: Lizards of Patagonia: Diversity, Systematics, Biogeography and Biology of the Reptiles at the End of the World. Eds. Mariana Morando & Luciano Javier Avila. Life Sciences Series, Springer International Publishing AG, Gewerbestrasse 11, 6330 Cham, Switzerland.<br>
+- Conservation concerns about the southernmost lizards of the World. (2020). Kacoliris F.P, __Minoli I.__, Kass C., & Di Pietro D.O., p 407-422 in: Lizards of Patagonia: Diversity, Systematics, Biogeography and Biology of the Reptiles at the End of the World. Eds. Mariana Morando & Luciano Javier Avila. Life Sciences Series, Springer International Publishing AG, Gewerbestrasse 11, 6330 Cham, Switzerland. doi: https://doi.org/10.1007/978-3-030-42752-8_14<br>
 <br>
-- Diversification and evolutionary histories of Patagonian steppe lizards (2020). Morando M., Medina C.D., __Minoli, I.__, Pérez C.H.F., Sites Jr, J.W. & Avila L.J., p 217-254 in: Lizards of Patagonia: Diversity, Systematics, Biogeography and Biology of the Reptiles at the End of the World. Eds. Mariana Morando & Luciano Javier Avila. Life Sciences Series, Springer International Publishing AG, Gewerbestrasse 11, 6330 Cham, Switzerland.<br>
+- Diversification and evolutionary histories of Patagonian steppe lizards (2020). Morando M., Medina C.D., __Minoli, I.__, Pérez C.H.F., Sites Jr, J.W. & Avila L.J., p 217-254 in: Lizards of Patagonia: Diversity, Systematics, Biogeography and Biology of the Reptiles at the End of the World. Eds. Mariana Morando & Luciano Javier Avila. Life Sciences Series, Springer International Publishing AG, Gewerbestrasse 11, 6330 Cham, Switzerland. doi: https://doi.org/10.1007/978-3-030-42752-8_9<br>
 <br>
 
 ## Some of my technical reports (from 6)<br>
