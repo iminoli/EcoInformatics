@@ -4,6 +4,10 @@ title: "Portfolio in R"
 
 __Some examples of my R plots, maps and results ... still under construction:__ 
 
+<iframe name="Filter" src="html/Incendios_Corrientes.html" style='height: 600px; width: 100%;' frameborder="0" scrolling="yes" id="iframe">...</iframe>
+
+Example of html self-contained with rgee (Google Earth Engine) for fires of Corrientes Province with an interactive map. In red soil fire scars and some of the smoke columns. Several layers options, scroll in - out<br>
+
 <img src="images/2AnnualAbsoluteTemperatureTrend.png" style="width:100%">
 
 Global absolute temperature change levels in celsius degrees.
@@ -35,10 +39,6 @@ Example of shiny app for an interactive reactive map - filter.
 <img src="images/raster_misiones.gif" style="width:100%">
 
 NDVI changes for Misiones Province for a year with rgee package (Google Earth Engine).<br>
-
-<iframe name="Filter" src="html/incendios_ctes.html" style='height: 600px; width: 100%;' frameborder="0" scrolling="yes" id="iframe">...</iframe>
-
-Example of html self embedded with rgee (Google Earth Engine) for fires of Corrientes Province with an interactive map. In red soil fire scars.<br>
 
 <img src="images/NuevaEscala.png" style="width:100%">
 
