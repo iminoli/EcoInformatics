@@ -6,40 +6,52 @@ __Some examples of my R plots, maps and results ... still under construction:__
 
 <iframe name="Filter" src="html/Incendios_Corrientes.html" style='height: 600px; width: 100%;' frameborder="0" scrolling="yes" id="iframe">...</iframe>
 
-Example of html self-contained with rgee (Google Earth Engine) for February 2022 fires of Corrientes Province (Argentina) with an interactive map. In red soil fire scars and some of the smoke columns. Several layers options, scroll in - out.<br>
+Example of html self-contained with __rgee package__ (Google Earth Engine) for February 2022 fires of Corrientes Province (Argentina) with an interactive map. In red soil fire scars and some of the smoke columns. Several layers options, scroll in - out.<br>
 
 <img src="images/2AnnualAbsoluteTemperatureTrend.png" style="width:100%">
 
-Global absolute temperature change levels in celsius degrees.
+Global absolute temperature change levels in celsius degrees with __R-base__.
 
 <img src="images/1AnnualCO2emissionTrend.png" style="width:100%">
 
-Global Co2 emmisions.
+Global Co2 emmisions with __R-base__.
 
 <img src="images/Temp_CO2_bis.png" style="width:100%">
 
-Global absolute temperature change levels in celsius degrees with the CO2 emmissions.
+Global absolute temperature change levels in celsius degrees with the CO2 emmissions with __R-base__.
+
+<img src="images/solo_MX_mean2.png" style="width:100%" style="float:left">
+<img src="images/solo_MX_mean.png" style="width:100%" style="float:left">
+
+Selection of optimal conservation areas considering an assemblage of lizards in Chile and two maps with different styles. The areas were discretized into cells to be able to quantify and fragment the possibility of selection and aimed efforts.
 
 <img src="images/3DSPINpc1.2.3CompFitz.gif" style="width:100%">
 
-3D PCA morpho space with morphometric variables in lizards.
+3D PCA morpho space with morphometric variables in lizards with __FactoMineR__ and __rgl package__.
 
-<img src="images/rich_celdas.png" style="width:100%">
+<img src="images/rich_celdas.png" style="width:150%">
 
-Lizard richness in Patagonia.
+Lizard richness in Patagonia. Spatial discretization in 1122 hexagonal cells for species richness considering 14985 records of individual occurrences of lizards.
 
 <img src="images/Riqueza_lat_01.png" style="width:100%">
 
 Latitudinal lizard richness changes in Patagonia
 
 <iframe name="Filter" src="https://redargentinademonitoreodefaunaatropellada.shinyapps.io/RAMFA3_bis/" style='height: 900px; width: 100%;' frameborder="0" scrolling="yes" id="iframe">...</iframe>
-Example of a shiny app with cumulative filters and reactive interactive maps. Developed for: Argentine Network for the Monitoring Fauna Runovers (RAMFA).
+
+Example of an app with __shiny package__ with cumulative filters and reactive interactive maps. Developed for: Argentine Network for the Monitoring Fauna Runovers (RAMFA).
 
 <img src="images/raster_misiones.gif" style="width:100%">
 
-NDVI changes for Misiones Province for a year with rgee package (Google Earth Engine).<br>
+NDVI changes for Misiones Province for a year with __rgee package__ (Google Earth Engine).<br>
 <br>
 <br>
 <img src="images/NuevaEscala.png" style="width:100%">
 
-Environmental niche model projected to 2070 ac87 scenario for an endemic and threatened species of lizard
+Environmental niche model projected to 2070 ac87 scenario for an endemic and threatened species of lizard using __dismo package__.
+<br>
+
+<img src="images/spp_by_genus.png" style="width:100%">
+
+Pie chart to summarize large amounts of data with __R-base__.
+<br>
