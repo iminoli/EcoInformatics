@@ -33,8 +33,7 @@ Lizard richness in Patagonia.
 Latitudinal lizard richness changes in Patagonia
 
 <iframe name="Filter" src="https://redargentinademonitoreodefaunaatropellada.shinyapps.io/RAMFA3_bis/" style='height: 900px; width: 100%;' frameborder="0" scrolling="yes" id="iframe">...</iframe>
-
-Example of shiny app for an interactive reactive map - filter.
+Example of a shiny app with cumulative filters and reactive interactive maps. Developed for: Argentine Network for the Monitoring Fauna Runovers (RAMFA).
 
 <img src="images/raster_misiones.gif" style="width:100%">
 
