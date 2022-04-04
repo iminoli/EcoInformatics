@@ -4,7 +4,7 @@ title: "Portfolio in R"
 
 __Some examples of my R plots, maps and results ... still under construction:__ 
 
-<iframe name="Filter" src="videos/Incendios_Ctes_fixed.mp4" style='height: 600px; width: 100%;' frameborder="0" scrolling="yes" id="iframe">...</iframe>
+<iframe name="Filter" src="videos/Incendios_Ctes_fixed.mp4" style='height: 600px; width: 100%;' frameborder="0" scrolling="no" id="iframe">...</iframe>
 
 Example of html self-contained with __rgee package__ (Google Earth Engine) for February 2022 fires of Corrientes Province (Argentina) with an interactive map. In red soil fire scars and in the right layer some of the smoke columns. Several layers options, scroll in - out, etc.<br>
 
