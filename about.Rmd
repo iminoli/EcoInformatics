@@ -3,7 +3,7 @@ title: "About Me"
 ---
 
 <br>
-![](images/foto_perfil_2.jpg)<br>
+![](images/foto_perfil_5.jpg)<br>
 
 - __Name:__<br>
 Ignacio Minoli
