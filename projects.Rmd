@@ -28,7 +28,7 @@ __Some of my on going projects...__
 
 - Project Collaborator “MapBiomas Trinational Atlantic Forest”. Created as a collaborative network of specialists from Argentina, Brazil and Paraguay, in topics such as land use, satellite remote sensing, GIS and programming.
 - From 2019 to present.
-- Collaboration in versions 1.0 and 2.0 of MapBiomas.
+- Collaboration in the versions 1.0 and 2.0 of MapBiomas.
 - I use google earth engine to collect samples of different landuse or landcover.
 - I participate in successive discussions and improvements in the MapBiomas versions or collections and in the applied methods.
 <br>
