@@ -7,7 +7,7 @@ output: html_document
 - Propuesta de Áreas Claves para la Conservación de la Biodiversidad (KBA) en la Provincia de Corrientes, República Argentina. (2022). Di Giacomo A.S.D., Cirignoli S., Bosso A., Gangenova E., Giraudo A., Varela D., Zurita A.G., Gil G., __Minoli I.__, Zurano J.P., Insaurralde J.A., Solari A. & Lozano D. Aves Argentinas Aop, Ciudad Autónoma de Buenos Aires, 196 p.<br>
 <br>
 
-## Published book chapters<br>
+## Published book chapters (from 6)<br>
 - Biogeography, Ecology and Spatial Patterns of Patagonian Lizards. (2020). __Minoli I.__, Pérez C.H.F., Morando M. & Avila L.J., p 189-216 in: Lizards of Patagonia: Diversity, Systematics, Biogeography and Biology of the Reptiles at the End of the World. Eds. Mariana Morando & Luciano Javier Avila. Life Sciences Series, Springer International Publishing AG, Gewerbestrasse 11, 6330 Cham, Switzerland. doi: https://doi.org/10.1007/978-3-030-42752-8_8<br>
 <br>
 - Conservation concerns about the southernmost lizards of the World. (2020). Kacoliris F.P, __Minoli I.__, Kass C., & Di Pietro D.O., p 407-422 in: Lizards of Patagonia: Diversity, Systematics, Biogeography and Biology of the Reptiles at the End of the World. Eds. Mariana Morando & Luciano Javier Avila. Life Sciences Series, Springer International Publishing AG, Gewerbestrasse 11, 6330 Cham, Switzerland. doi: https://doi.org/10.1007/978-3-030-42752-8_14<br>
