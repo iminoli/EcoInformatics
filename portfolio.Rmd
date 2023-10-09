@@ -6,7 +6,7 @@ __Some examples of my R plots, maps and results ... still under construction:__
 
 <p align="center"><iframe width="373" height="210" src="videos/Incendios_Ctes_fixed.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
-Example of a html self-contained with __rgee package__ (Google Earth Engine) for February 2022 fires of Corrientes Province (Argentina) with an interactive map. In red soil fire scars and in the right layer some of the smoke columns. Several layers options, scroll in - out, etc.<br>
+Example of a html self-contained with __rgee package__ (Google Earth Engine) for February 2022 fires of Corrientes Province (Argentina) with an interactive map. In red soil fire scars, and in the right layer some of the smoke columns. Several layers options, scroll in - out, etc.<br>
 Click on __"full screen icon"__ to see changes in full screen.<br>
 
 <img src="images/2AnnualAbsoluteTemperatureTrend.png" style="width:100%">
