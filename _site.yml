@@ -13,8 +13,6 @@ navbar:
       href: publications.html
     - text: "Portfolio in R"
       href: portfolio.html
-    - text: "About Me"
-      href: about.html
     - text: "Contact Me"
       href: contact.html
 output:
