@@ -28,6 +28,8 @@ Through all my working and academic experience, I specialized in biodiversity, b
 Currently, I work at the Institute of Subtropical Biology (IBS) based in Posadas, Misiones, Argentina, in a Assistant Professional Position of CONICET-UNaM as administrator of the Biodiversity Database at the Atlantic Forest Biodiversity Observatory (OBBA), where I live with my wife Ana, my son Máximo and my daughter Miranda.<br>
 <br>
 
+- __Web Profiles and Social Media:__<br>
+
 __1)__ LinkedIn <a href="https://linkedin.com/in/ignacio-minoli-810141bb" target="_blank" style="text-decoration: none;"><img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" style="width: 30px; height: auto; display: inline-block; vertical-align: middle; margin-left: 5px; border: none; box-shadow: none;"></a><br>
 
 __2)__ CONICET <a href="http://www.conicet.gov.ar/new_scp/detalle.php?id=30215&datos_academicos=yes" target="_blank" style="text-decoration: none;"><img src="https://upload.wikimedia.org/wikipedia/commons/2/23/CONICET_logo_con_letras.svg" alt="CONICET" style="width: 50px; height: auto; display: inline-block; vertical-align: middle; margin-left: 5px; border: none; box-shadow: none;"></a><br>
@@ -36,7 +38,7 @@ __3)__ Google Scholar <a href="https://scholar.google.com/citations?user=WnylJDQ
 
 __4)__ Research Gate <a href="https://www.researchgate.net/profile/Ignacio_Minoli" target="_blank" style="text-decoration: none;"><img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/ResearchGate_icon_SVG.svg" alt="ResearchGate" style="width: 30px; height: auto; display: inline-block; vertical-align: middle; margin-left: 5px; border: none; box-shadow: none;"></a><br>
 
-__5)__ ORCID ID <a href="https://orcid.org/0000-0002-6039-6962" target="_blank" style="text-decoration: none;"><img src="https://upload.wikimedia.org/wikipedia/commons/0/06/ORCID_iD.svg" alt="ORCID" style="width: 30px; height: auto; display: inline-block; vertical-align: middle; margin-left: 5px; border: none; box-shadow: none;"></a><br><br>
+__5)__ ORCID ID <a href="https://orcid.org/0000-0002-6039-6962" target="_blank" style="text-decoration: none;"><img src="https://upload.wikimedia.org/wikipedia/commons/0/06/ORCID_iD.svg" alt="ORCID" style="width: 30px; height: auto; display: inline-block; vertical-align: middle; margin-left: 5px; border: none; box-shadow: none;"></a><br>
 
 __6)__ Red Argentina de Monitoreo de Fauna Atropellada – RAMFA<br>
 
@@ -49,6 +51,8 @@ __-__ <img src="https://upload.wikimedia.org/wikipedia/commons/c/c4/Globe_icon.s
 __-__ <img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Bar_chart_font_awesome.svg" alt="stats" style="width: 20px; height: auto; display: inline-block; vertical-align: middle; margin-right: 5px; box-shadow: none; border: none;"> <a href="https://fauna-atropellada.org.ar/otras-estadisticas/" target="_blank" style="text-decoration: none;"><strong>Interactive Stats</strong></a><br><br>
 
 <!-- __-__   [Interactive statistics](https://www.fauna-atropellada.org.ar/otras-estadisticas) -->
+
+- __Full Background:__<br>
 
 You can checkout all my background and experience <b>here</b>:
 <br>
