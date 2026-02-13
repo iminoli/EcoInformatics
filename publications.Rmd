@@ -15,7 +15,7 @@ output: html_document
 - Diversification and evolutionary histories of Patagonian steppe lizards (2020). Morando M., Medina C.D., __Minoli, I.__, Pérez C.H.F., Sites Jr, J.W. & Avila L.J., p 217-254 in: Lizards of Patagonia: Diversity, Systematics, Biogeography and Biology of the Reptiles at the End of the World. Eds. Mariana Morando & Luciano Javier Avila. Life Sciences Series, Springer International Publishing AG, Gewerbestrasse 11, 6330 Cham, Switzerland. doi: https://doi.org/10.1007/978-3-030-42752-8_9<br>
 <br>
 
-## Some of my top published research papers (from 26)<br>
+## Some of my top published research papers (from 28)<br>
 - Velazco, SJE, Rose, MB, de Andrade, JFA,  __Minoli, I__ & Franklin, J (2022) flexsdm: An R package for supporting a comprehensive and flexible species distribution modeling workflow. Methods in Ecology and Evolution, early view. doi: https://doi.org/10.1111/2041-210X.13874<br>
 <br>
 - __Minoli, I__, Cacciali, P, Morando, M & Avila, LJ (2019) Predicting spatial and temporal effects of climate change on the South American lizard genus <i>Teius</i> (Squamata: Teiidae). Amphibia-Reptilia, 40: 313–326. doi: https://doi.org/10.1163/15685381-20181070<br>
