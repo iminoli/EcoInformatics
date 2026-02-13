@@ -44,7 +44,9 @@ __-__ <img src="https://upload.wikimedia.org/wikipedia/commons/c/c4/Globe_icon.s
 
 __-__ <img src="https://upload.wikimedia.org/wikipedia/commons/c/c4/Globe_icon.svg" alt="map" style="width: 20px; height: auto; display: inline-block; vertical-align: middle; margin-right: 5px; box-shadow: none; border: none;"> [**Interactive - reactive map filtering**](https://fauna-atropellada.org.ar/filtro-por-especies/)<br>
 
-__-__ <img src="https://upload.wikimedia.org/wikipedia/commons/c/c4/Globe_icon.svg" alt="map" style="width: 20px; height: auto; display: inline-block; vertical-align: middle; margin-right: 5px; box-shadow: none; border: none;"> [**Interactive - reactive density map**](https://fauna-atropellada.org.ar/densidad-atropellamientos-de-fauna/)<br><br>
+__-__ <img src="https://upload.wikimedia.org/wikipedia/commons/c/c4/Globe_icon.svg" alt="map" style="width: 20px; height: auto; display: inline-block; vertical-align: middle; margin-right: 5px; box-shadow: none; border: none;"> [**Interactive - reactive density map**](https://fauna-atropellada.org.ar/densidad-atropellamientos-de-fauna/)<br>
+
+__-__ <img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Bar_chart_font_awesome.svg" alt="stats" style="width: 20px; height: auto; display: inline-block; vertical-align: middle; margin-right: 5px; box-shadow: none; border: none;"> [**Interactive Stats**](https://fauna-atropellada.org.ar/otras-estadisticas/)<br><br>
 
 <!-- __-__   [Interactive statistics](https://www.fauna-atropellada.org.ar/otras-estadisticas) -->
 
