@@ -1,5 +1,5 @@
 ---
-title: "EcoInformatics - About me"
+title: "EcoInformatics @ ~ <br><br> About me"
 ---
 
 <br>
