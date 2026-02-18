@@ -32,7 +32,6 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/vembedr-0.1.5/css/vembedr.css" rel="stylesheet" />
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -283,7 +282,7 @@ $(document).ready(function () {
 <strong>Some examples of my R plots, maps and results … still under
 construction:</strong> <br>
 <p align="center">
-<iframe width="373" height="210" src="videos/Incendios_Ctes_fixed.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+<iframe width="373" height="210" src="videos/R_Shiny_Map_Reactive.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 </iframe>
 </p>
 <p>In this video, I show how it is possible to integrate <strong>large
@@ -293,13 +292,11 @@ interaction of visual elements. These <strong>apps</strong> are ideal
 alternatives for large volumes of spatial data, which are difficult to
 handle visually when inspecting them.</p>
 <p><br></p>
-<pre class="r"><code>library(vembedr)
-embed_url(&quot;https://vimeo.com/1014990732&quot;)</code></pre>
-<div class="vembedr">
-<div>
-<iframe class="vimeo-embed" src="https://player.vimeo.com/video/1014990732" width="533" height="300" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" data-external="1"></iframe>
+<div style="padding:56.25% 0 0 0;position:relative;">
+<iframe src="https://player.vimeo.com/video/1014990732?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Concurso Nacional de Visualización de Datos 2024  &quot;Contar con Datos&quot;.">
+</iframe>
 </div>
-</div>
+<script src="https://player.vimeo.com/api/player.js"></script>
 <p>This video is a participation for the “Concurso Nacional de
 Visualización de Datos 2024: Contar con Datos” (National Data
 Visualization Competition 2024). The video presents a
@@ -309,13 +306,15 @@ complement the video and explore the underlying data and visualizations
 in greater depth, you can see in this link the <strong>interactive
 dashboard</strong> (<a
 href="https://hermeneuta.quarto.pub/contar-con-datos-2024-/#"
-class="uri">https://hermeneuta.quarto.pub/contar-con-datos-2024-/#</a>).<br></p>
+class="uri">https://hermeneuta.quarto.pub/contar-con-datos-2024-/#</a>).</p>
+<p><br></p>
 <p><img src="images/figura_final_2.png" style="width:100%"></p>
 <p>Example of a map I created for the paper “Contrasting genetic
 diversity and ecological niche modelling of the montane grass mouse
 <em>Akodon montensis</em> in the south of the Atlantic Forest” from
 Labaroni et al. 2025. This was the third paper I had collaborated on in
 2025 without receiving proper acknowledgement for doing so.</p>
+<p><br></p>
 <p align="center">
 <iframe width="373" height="210" src="videos/Incendios_Ctes_fixed.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 </iframe>
@@ -326,46 +325,57 @@ Labaroni et al. 2025. This was the third paper I had collaborated on in
 right layer some of the smoke columns. Several layers options, scroll in
 - out, etc.<br> Click on <strong>“full screen icon”</strong> to see
 changes in full screen.<br></p>
+<p><br></p>
 <p><img src="images/2AnnualAbsoluteTemperatureTrend.png" style="width:100%"></p>
 <p>Global absolute temperature change levels in celsius degrees with
 <strong>R-base</strong>.</p>
+<p><br></p>
 <p><img src="images/1AnnualCO2emissionTrend.png" style="width:100%"></p>
 <p>Global Co2 emmisions with <strong>R-base</strong>.</p>
+<p><br></p>
 <p><img src="images/Temp_CO2_bis.png" style="width:100%"></p>
 <p>Global absolute temperature change levels in celsius degrees with the
 CO2 emmissions with <strong>R-base</strong>.</p>
+<p><br></p>
 <p><img src="images/solo_MX_mean2.png" style="width:100%" style="float:left">
 <img src="images/solo_MX_mean.png" style="width:100%" style="float:left"></p>
 <p>Selection of optimal conservation areas considering an assemblage of
 lizards in Chile and two maps with different styles. The areas were
 discretized into cells to be able to quantify and fragment the
 possibility of selection and aimed efforts.</p>
+<p><br></p>
 <p><img src="images/3DSPINpc1.2.3CompFitz.gif" style="width:100%"></p>
 <p>3D PCA morpho space with morphometric variables in lizards with
 <strong>FactoMineR</strong> and <strong>rgl package</strong>.</p>
+<p><br></p>
 <p><img src="images/rich_celdas.png" style="width:150%"></p>
 <p>Lizard richness in Patagonia. Spatial discretization in 1122
 hexagonal cells for species richness considering 14985 records of
 individual occurrences of lizards.</p>
+<p><br></p>
 <p><img src="images/Riqueza_lat_01.png" style="width:100%"></p>
 <p>Latitudinal lizard richness changes in Patagonia in hexagonal
 cells.</p>
+<p><br></p>
 <iframe name="Filter" src="https://ramfa.shinyapps.io/ramfa3_bis/" style="height: 900px; width: 100%;" frameborder="0" scrolling="yes" id="iframe">
 …
 </iframe>
 <p>Example of an app with <strong>shiny package</strong> with cumulative
 filters and reactive interactive maps. Developed for: Argentine Network
 for the Monitoring Fauna Runovers (RAMFA).</p>
+<p><br></p>
 <p><img src="images/raster_misiones.gif" style="width:100%"></p>
 <p>NDVI changes for Misiones Province for a year with <strong>rgee
 package</strong> (Google Earth Engine).<br> <br> <br>
 <img src="images/NuevaEscala.png" style="width:100%"></p>
 <p>Environmental niche model projected to 2070 ac87 scenario for an
 endemic and threatened species of lizard using <strong>dismo
-package</strong>. <br></p>
+package</strong>.</p>
+<p><br></p>
 <p><img src="images/spp_by_genus.png" style="width:100%"></p>
 <p>Pie chart to summarize large amounts of data with
-<strong>R-base</strong>. <br></p>
+<strong>R-base</strong>.</p>
+<p><br></p>
 
 
 
