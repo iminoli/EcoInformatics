@@ -6,13 +6,13 @@ title: "Portfolio in R"
 
 __Some examples of my R plots, maps and results ... still under construction:__ 
 <br>
-<p align="center"><iframe width="1920" height="1080" src="videos/R_Shiny_Map_Reactive.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p align="center"><iframe width="373" height="210" src="videos/R_Shiny_Map_Reactive.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 In this video, I show how it is possible to integrate __large databases__ into an __R Shiny application__ that allows you to filter and generate reactive views while maintaining the interaction of visual elements. These __apps__ are ideal alternatives for large volumes of spatial data, which are difficult to handle visually when inspecting them.
 
 <br>
 
-<p align="center"><iframe width="1920" height="1080" src="videos/concurso_nacional_de_visualización_de_datos_2024.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p align="center"><iframe width="373" height="210" src="videos/concurso_nacional_de_visualización_de_datos_2024.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 This video is a participation for the "Concurso Nacional de Visualización de Datos 2024: Contar con Datos" (National Data Visualization Competition 2024). The video presents a __data-driven story or analysis__ focused on the principles and practice of effective data filtering & visualization.<br>
 To complement the video and explore the underlying data and visualizations in greater depth, you can see in this link the __interactive dashboard__ (https://hermeneuta.quarto.pub/contar-con-datos-2024-/#).
