@@ -2,6 +2,7 @@
 title: "Education"
 output: html_document
 ---
+<br>
 
 ## [University degree](https://en.unne.edu.ar/index.php?lang=en)
 

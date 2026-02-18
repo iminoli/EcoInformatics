@@ -2,6 +2,8 @@
 title: "Portfolio in R"
 ---
 
+<br>
+
 __Some examples of my R plots, maps and results ... still under construction:__ 
 
 <img src="images/figura_final_2.png" style="width:100%">
