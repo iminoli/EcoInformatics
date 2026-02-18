@@ -5,7 +5,9 @@ title: "Portfolio in R"
 <br>
 
 __Some examples of my R plots, maps and results ... still under construction:__ 
+
 <br>
+
 <p align="center"><iframe width="373" height="210" src="videos/R_Shiny_Map_Reactive.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 In this video, I show how it is possible to integrate __large databases__ into an __R Shiny application__ that allows you to filter and generate reactive views while maintaining the interaction of visual elements. These __apps__ are ideal alternatives for large volumes of spatial data, which are difficult to handle visually when inspecting them.
@@ -19,7 +21,7 @@ To complement the video and explore the underlying data and visualizations in gr
 
 <br>
 
-<img src="images/figura_final_2.png" style="width:100%">
+<img src="images/figura_final_2.png" style="width:70%">
 
 Example of a map I created for the paper "Contrasting genetic diversity and ecological niche modelling of the montane grass mouse *Akodon montensis* in the south of the Atlantic Forest" from Labaroni et al. 2025. This was the third paper I had collaborated on in 2025 without receiving proper acknowledgement for doing so.
 
