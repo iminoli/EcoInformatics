@@ -3,26 +3,45 @@ title: "Red Argentina de Monitoreo de <br> Fauna Atropellada (RAMFA)"
 ---
 
 <style>
+  /* Contenedor dinámico que se ajusta al alto de la pantalla */
   .iframe-container {
     position: relative;
     width: 100%;
+    /* 80vh asegura que ocupe el 80% del alto de la pantalla del usuario */
+    height: 85vh; 
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
     overflow: hidden;
-    padding-top: 56.25%; /* Relación de aspecto 16:9 */
   }
+
   .responsive-iframe {
     position: absolute;
     top: 0;
     left: 0;
-    bottom: 0;
-    right: 0;
     width: 100%;
     height: 100%;
     border: none;
   }
+
+  /* Ajuste para pantallas pequeñas (celulares) */
+  @media (max-width: 768px) {
+    .iframe-container {
+      height: 70vh; /* Un poco más bajo en móvil para ver el título y el link */
+    }
+  }
 </style>
 
 <div class="iframe-container">
-  <iframe class="responsive-iframe" src="https://ramfa-landing-page.base44.app/"></iframe>
+  <iframe 
+    class="responsive-iframe" 
+    src="https://ramfa-landing-page.base44.app/" 
+    allowfullscreen>
+  </iframe>
 </div>
 
-[Ver en pantalla completa](https://ramfa-landing-page.base44.app/){target="_blank"}
+<p style="text-align: center;">
+  <a href="https://ramfa-landing-page.base44.app/" target="_blank" class="btn btn-primary">
+    <i class="fa fa-external-link"></i> Ver en pantalla completa (nueva pestaña)
+  </a>
+</p>
