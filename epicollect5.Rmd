@@ -3,7 +3,6 @@ title: "Epicollect5: <br> Free and easy-to-use mobile data-gathering platform"
 ---
 
 <style>
-  /* Estilo para la "Card" de previsualización */
   .project-preview-card {
     border: 1px solid #ddd;
     border-radius: 12px;
@@ -20,12 +19,34 @@ title: "Epicollect5: <br> Free and easy-to-use mobile data-gathering platform"
     border-radius: 8px;
     border: 1px solid #eee;
     margin-bottom: 20px;
+    transition: transform 0.2s;
+  }
+
+  /* Estilo para que la imagen parezca clickeable */
+  .preview-image:hover {
+    transform: scale(1.01);
+    cursor: zoom-in;
+  }
+
+  .secondary-text {
+    font-style: italic;
+    color: #555;
+    margin: 15px 0 25px 0;
+    font-size: 0.95em;
+    line-height: 1.4;
   }
 
   .btn-visit {
-    font-size: 1.2em;
-    padding: 12px 30px;
-    margin-top: 15px;
+    font-size: 1.1em;
+    padding: 10px 25px;
+  }
+
+  /* Ajuste para que en PC la imagen no sea excesivamente grande */
+  @media (min-width: 992px) {
+    .secondary-img-wrapper {
+      max-width: 80%;
+      margin: 0 auto;
+    }
   }
 </style>
 
@@ -34,6 +55,16 @@ title: "Epicollect5: <br> Free and easy-to-use mobile data-gathering platform"
   
   <h3>Access the official documentation</h3>
   <p>Due to security policies on the original site, the platform must open in a new window.</p>
+
+  <div class="secondary-img-wrapper">
+    <a href="images/epicollect_projects.png" target="_blank" title="Click to enlarge">
+      <img src="images/epicollect_projects.png" alt="My Epicollect Projects" class="preview-image">
+    </a>
+  </div>
+  
+  <p class="secondary-text">
+    Some of the projects I've created on this citizen science platform for collecting biological data in the field.
+  </p>
   
   <a href="https://docs.epicollect.net/" target="_blank" class="btn btn-primary btn-visit">
     <i class="fa fa-external-link"></i> Open Epicollect5 in a new tab
