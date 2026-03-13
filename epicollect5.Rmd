@@ -66,7 +66,7 @@ title: "Epicollect5: <br> Free and easy-to-use mobile data-gathering platform"
 </a>
 
 <p class="secondary-text">
-Some of the projects I've created on this citizen science platform for collecting biological data in the field.
+Some of the projects I have created, managed, or supervised on this citizen science platform to collect biological data in the field.
 </p>
 </div>
 
