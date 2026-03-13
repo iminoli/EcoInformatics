@@ -37,6 +37,9 @@ __Some of my on going projects...__
 - I participate in successive discussions and improvements in the MapBiomas versions or collections and in the applied methods.
 <br>
 <br>
+[More details about this project](mapbiomas.html){target="_blank" .btn .btn-primary}
+<br>
+<br>
 
 ## [Citizen Science Apps](https://five.epicollect.net/)
 

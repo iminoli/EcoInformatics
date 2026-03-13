@@ -11,7 +11,7 @@
 
 
 
-<title>Portfolio in R</title>
+<title>MapBiomas Trinational Atlantic Forest</title>
 
 <script src="site_libs/header-attrs-2.30/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -293,109 +293,50 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Portfolio in R</h1>
+<h1 class="title toc-ignore">MapBiomas Trinational Atlantic Forest</h1>
 
 </div>
 
 
-<p><br></p>
-<p><strong>Some examples of my R plots, maps and results … still under
-construction:</strong></p>
-<p><br></p>
-<p align="center">
-<iframe width="373" height="210" src="videos/R_Shiny_Map_Reactive.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-</iframe>
+<style>
+  /* Contenedor dinámico que se ajusta al alto de la pantalla */
+  .iframe-container {
+    position: relative;
+    width: 100%;
+    /* 80vh asegura que ocupe el 80% del alto de la pantalla del usuario */
+    height: 85vh; 
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  .responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+
+  /* Ajuste para pantallas pequeñas (celulares) */
+  @media (max-width: 768px) {
+    .iframe-container {
+      height: 70vh; /* Un poco más bajo en móvil para ver el título y el link */
+    }
+  }
+</style>
+<div class="iframe-container">
+<p><iframe 
+    class="responsive-iframe" 
+    src="https://bosqueatlantico.mapbiomas.org/en/project/" 
+    allowfullscreen> </iframe></p>
+</div>
+<p style="text-align: center;">
+<a href="https://bosqueatlantico.mapbiomas.org/en/project/" target="_blank" class="btn btn-primary">
+<i class="fa fa-external-link"></i> View in full screen (new tab) </a>
 </p>
-<p>In this video, I show how it is possible to integrate <strong>large
-databases</strong> into an <strong>R Shiny application</strong> that
-allows you to filter and generate reactive views while maintaining the
-interaction of visual elements. These <strong>apps</strong> are ideal
-alternatives for large volumes of spatial data, which are difficult to
-handle visually when inspecting them.</p>
-<p><br></p>
-<p align="center">
-<iframe width="373" height="210" src="videos/concurso_nacional_de_visualización_de_datos_2024.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-</iframe>
-</p>
-<p>This video is a participation for the “Concurso Nacional de
-Visualización de Datos 2024: Contar con Datos” (National Data
-Visualization Competition 2024). The video presents a
-<strong>data-driven story or analysis</strong> focused on the principles
-and practice of effective data filtering &amp; visualization.<br> To
-complement the video and explore the underlying data and visualizations
-in greater depth, you can see in this link the <strong>interactive
-dashboard</strong> (<a
-href="https://hermeneuta.quarto.pub/contar-con-datos-2024-/#"
-class="uri">https://hermeneuta.quarto.pub/contar-con-datos-2024-/#</a>).</p>
-<p><br></p>
-<p><img src="images/figura_final_2.png" style="width:70%"></p>
-<p>Example of a map I created for the paper “Contrasting genetic
-diversity and ecological niche modelling of the montane grass mouse
-<em>Akodon montensis</em> in the south of the Atlantic Forest” from
-Labaroni et al. 2025. This was the third paper I had collaborated on in
-2025 without receiving proper acknowledgement for doing so.</p>
-<p><br></p>
-<p align="center">
-<iframe width="373" height="210" src="videos/Incendios_Ctes_fixed.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-</iframe>
-</p>
-<p>Example of a html self-contained with <strong>rgee package</strong>
-(Google Earth Engine) for February 2022 fires of Corrientes Province
-(Argentina) with an interactive map. In red soil fire scars and in the
-right layer some of the smoke columns. Several layers options, scroll in
-- out, etc.<br> Click on <strong>“full screen icon”</strong> to see
-changes in full screen.<br></p>
-<p><br></p>
-<p><img src="images/2AnnualAbsoluteTemperatureTrend.png" style="width:100%"></p>
-<p>Global absolute temperature change levels in celsius degrees with
-<strong>R-base</strong>.</p>
-<p><br></p>
-<p><img src="images/1AnnualCO2emissionTrend.png" style="width:100%"></p>
-<p>Global Co2 emmisions with <strong>R-base</strong>.</p>
-<p><br></p>
-<p><img src="images/Temp_CO2_bis.png" style="width:100%"></p>
-<p>Global absolute temperature change levels in celsius degrees with the
-CO2 emmissions with <strong>R-base</strong>.</p>
-<p><br></p>
-<p><img src="images/solo_MX_mean2.png" style="width:100%" style="float:left">
-<img src="images/solo_MX_mean.png" style="width:100%" style="float:left"></p>
-<p>Selection of optimal conservation areas considering an assemblage of
-lizards in Chile and two maps with different styles. The areas were
-discretized into cells to be able to quantify and fragment the
-possibility of selection and aimed efforts.</p>
-<p><br></p>
-<p><img src="images/3DSPINpc1.2.3CompFitz.gif" style="width:100%"></p>
-<p>3D PCA morpho space with morphometric variables in lizards with
-<strong>FactoMineR</strong> and <strong>rgl package</strong>.</p>
-<p><br></p>
-<p><img src="images/rich_celdas.png" style="width:150%"></p>
-<p>Lizard richness in Patagonia. Spatial discretization in 1122
-hexagonal cells for species richness considering 14985 records of
-individual occurrences of lizards.</p>
-<p><br></p>
-<p><img src="images/Riqueza_lat_01.png" style="width:100%"></p>
-<p>Latitudinal lizard richness changes in Patagonia in hexagonal
-cells.</p>
-<p><br></p>
-<iframe name="Filter" src="https://ramfa.shinyapps.io/ramfa3_bis/" style="height: 900px; width: 100%;" frameborder="0" scrolling="yes" id="iframe">
-…
-</iframe>
-<p>Example of an app with <strong>shiny package</strong> with cumulative
-filters and reactive interactive maps. Developed for: Argentine Network
-for the Monitoring Fauna Runovers (RAMFA).</p>
-<p><br></p>
-<p><img src="images/raster_misiones.gif" style="width:100%"></p>
-<p>NDVI changes for Misiones Province for a year with <strong>rgee
-package</strong> (Google Earth Engine).<br> <br> <br>
-<img src="images/NuevaEscala.png" style="width:100%"></p>
-<p>Environmental niche model projected to 2070 ac87 scenario for an
-endemic and threatened species of lizard using <strong>dismo
-package</strong>.</p>
-<p><br></p>
-<p><img src="images/spp_by_genus.png" style="width:100%"></p>
-<p>Pie chart to summarize large amounts of data with
-<strong>R-base</strong>.</p>
-<p><br></p>
 
 
 
