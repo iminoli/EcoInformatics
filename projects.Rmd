@@ -20,6 +20,9 @@ __Some of my on going projects...__
 - I am also one of the reptiles curator.
 <br>
 <br>
+[More details about this project](ramfa.html){target="_blank" .btn .btn-primary}
+<br>
+<br>
 
 ## [MapBiomas Trinational Atlantic Forest](https://bosqueatlantico.mapbiomas.org/es)
 
