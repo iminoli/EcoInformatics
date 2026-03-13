@@ -14,6 +14,8 @@ navbar:
         - text: "---"
         - text: "RAMFA (Wildlife roadkills)"
           href: ramfa.html
+        - text: "Epicollect5 (Citizen Science)"
+          href: epicollect5.html
     - text: "Publications"
       href: publications.html
     - text: "Portfolio in R"

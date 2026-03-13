@@ -53,3 +53,7 @@ __Some of my on going projects...__
 - From 2020 to present.
 - I develop the from applications for entering spatial data through cell phones and management of the outcome databases.
 <br>
+<br>
+[More details about this project](epicollect5.html){target="_blank" .btn .btn-primary}
+<br>
+<br>
