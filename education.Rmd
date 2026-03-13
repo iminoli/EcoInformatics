@@ -2,20 +2,67 @@
 title: "Education"
 output: html_document
 ---
+
+<style>
+  /* Contenedor para alinear título y logo */
+  .edu-header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  /* Estilo para los logos */
+  .edu-logo {
+    height: 45px; /* Tamaño armonioso con H2 */
+    width: auto;
+    transition: transform 0.3s;
+  }
+
+  .edu-logo:hover {
+    transform: scale(1.05);
+  }
+
+  /* Ajuste para móviles */
+  @media (max-width: 768px) {
+    .edu-header {
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .edu-logo {
+      height: 35px; /* Un poco más pequeño en celulares */
+    }
+  }
+</style>
+
 <br>
 
-## [University degree](https://en.unne.edu.ar/index.php?lang=en)
+<div class="edu-header">
+  <h2 style="margin:0;">[University degree](https://en.unne.edu.ar/index.php?lang=en)</h2>
+  <a href="https://www.unne.edu.ar/" target="_blank">
+    <img src="images/logo_unne.png" class="edu-logo" alt="Logo UNNE">
+  </a>
+</div>
 
 - Bachelor degree in Zoology. Facultad de Ciencias Exactas y Naturales y Agrimensura, Universidad Nacional del Nordeste. Corrientes. Argentina. March 1998 - 11 March 2006. Overall career average 7.00/10.
+
 <br>
 
-## [Postgraduate degree](https://www.unc.edu.ar/english/)
+<div class="edu-header">
+  <h2 style="margin:0;">[Postgraduate degree](https://www.unc.edu.ar/english/)</h2>
+  <a href="https://www.unc.edu.ar/" target="_blank">
+    <img src="images/UNC_02_COLOR.png" class="edu-logo" alt="Logo UNC">
+  </a>
+</div>
 
 - PhD degree in Biological Sciences. Universidad Nacional de Córdoba. Admission: February 3rd, 2011. Graduate: March 18ht, 2015. Thesis topic: Determination of species boundaries in the <i>fitzingerii</i> group lizards of genus <i>Liolaemus</i> (Iguania: Liolaemini). Qualification: Outstanding.
+
 <br>
 
 ## [Postgraduate training courses]()
-__(only some of the most significant ones!!)__
+__(only some of the most significant ones from 23 taken!!)__
 
 - Course name: IV Taller GBIF.ES online: Manejo, visualización y análisis de datos en ecología con R (nivel iniciación).
 Organizing Institution: Nodo Español de Biodiversidad GBIF.ES (RJB-CSIC).
