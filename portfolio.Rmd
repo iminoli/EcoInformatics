@@ -1,101 +1,276 @@
 ---
 title: "Portfolio in R"
+format: html
 ---
 
-<br>
+<style>
+  /* General Body & Typography */
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  h1, h2, h3 {
+    font-family: 'Georgia', serif;
+    color: #2c3e50;
+  }
+  h1 {
+    text-align: center;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+  }
+  h2 {
+    margin-top: 50px;
+    border-bottom: 1px solid #ecf0f1;
+    padding-bottom: 10px;
+  }
 
-__Some examples of my R plots, maps and results ... still under construction:__ 
+  /* Project Grid and Card Styling */
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  .project-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 1.5rem;
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  }
+  .project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+  }
+  .project-card h3 {
+    margin-top: 0;
+    font-size: 1.4rem;
+    color: #3498db;
+  }
+  .project-card img,
+  .project-card iframe {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .project-card p {
+    font-size: 0.95rem;
+  }
+  .project-card .tech-stack {
+    font-style: italic;
+    color: #7f8c8d;
+    font-size: 0.9rem;
+  }
+  
+  /* Full-width section for the large Shiny App */
+  .full-width-app {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .full-width-app iframe {
+    width: 100%;
+    height: 900px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+  }
+</style>
 
-<br>
+# A Showcase of Data Science & Visualization
 
-<p align="center"><iframe width="373" height="210" src="videos/R_Shiny_Map_Reactive.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+Welcome to my portfolio. This collection highlights my expertise in R for data analysis, geospatial modeling, and the creation of interactive visualizations. Each project demonstrates a unique challenge solved through data-driven insights and technical skill.
 
-In this video, I show how it is possible to integrate __large databases__ into an __R Shiny application__ that allows you to filter and generate reactive views while maintaining the interaction of visual elements. These __apps__ are ideal alternatives for large volumes of spatial data, which are difficult to handle visually when inspecting them.
+---
 
-<br>
+## Interactive Applications
 
-<p align="center"><iframe width="373" height="210" src="videos/concurso_nacional_de_visualización_de_datos_2024.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<div class="project-grid">
 
-This video is a participation for the "Concurso Nacional de Visualización de Datos 2024: Contar con Datos" (National Data Visualization Competition 2024). The video presents a __data-driven story or analysis__ focused on the principles and practice of effective data filtering & visualization.<br>
-To complement the video and explore the underlying data and visualizations in greater depth, you can see in this link the __interactive dashboard__ (https://hermeneuta.quarto.pub/contar-con-datos-2024-/#).
+<div class="project-card">
 
-<br>
+### Reactive Shiny Map for Large Databases
 
-<img src="images/figura_final_2.png" style="width:70%">
+<iframe width="373" height="210" src="videos/R_Shiny_Map_Reactive.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Example of a map I created for the paper "Contrasting genetic diversity and ecological niche modelling of the montane grass mouse *Akodon montensis* in the south of the Atlantic Forest" from Labaroni et al. 2025. This was the third paper I had collaborated on in 2025 without receiving proper acknowledgement for doing so.
+This video demonstrates an R Shiny application designed to handle and filter large spatial databases. The app provides reactive, interactive views, enabling users to explore complex datasets dynamically. This approach is ideal for making large volumes of geospatial data accessible and insightful.
 
-<br>
+<p class="tech-stack">Tech Stack: R, Shiny, Spatial Data</p>
 
-<p align="center"><iframe width="373" height="210" src="videos/Incendios_Ctes_fixed.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+</div>
 
-Example of a html self-contained with __rgee package__ (Google Earth Engine) for February 2022 fires of Corrientes Province (Argentina) with an interactive map. In red soil fire scars and in the right layer some of the smoke columns. Several layers options, scroll in - out, etc.<br>
-Click on __"full screen icon"__ to see changes in full screen.<br>
+<div class="project-card">
 
-<br>
+### National Data Viz Competition 2024 Entry
 
-<img src="images/2AnnualAbsoluteTemperatureTrend.png" style="width:100%">
+<iframe width="373" height="210" src="videos/concurso_nacional_de_visualización_de_datos_2024.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Global absolute temperature change levels in celsius degrees with __R-base__.
+A submission for the "Concurso Nacional de Visualización de Datos 2024". This video presents a data-driven narrative, focusing on the principles of effective data filtering and storytelling. Explore the full interactive dashboard to dive deeper into the analysis.
 
-<br>
+<p class="tech-stack">Tech Stack: R, Quarto, Data Storytelling</p>
+<a href="https://hermeneuta.quarto.pub/contar-con-datos-2024-/#" target="_blank">View Interactive Dashboard</a>
 
-<img src="images/1AnnualCO2emissionTrend.png" style="width:100%">
+</div>
 
-Global Co2 emmisions with __R-base__.
+<div class="project-card">
 
-<br>
+### RAMFA Fauna Monitoring App
 
-<img src="images/Temp_CO2_bis.png" style="width:100%">
+An interactive application developed for the Argentine Network for the Monitoring of Fauna Runovers (RAMFA). It features cumulative filters and reactive maps to analyze wildlife roadkill data, aiding in conservation efforts and infrastructure planning.
 
-Global absolute temperature change levels in celsius degrees with the CO2 emmissions with __R-base__.
+<p class="tech-stack">Tech Stack: R, Shiny, Leaflet</p>
+<a href="https://ramfa.shinyapps.io/ramfa3_bis/" target="_blank">View Live App</a>
 
-<br>
+</div>
 
-<img src="images/solo_MX_mean2.png" style="width:100%" style="float:left">
-<img src="images/solo_MX_mean.png" style="width:100%" style="float:left">
+</div>
 
-Selection of optimal conservation areas considering an assemblage of lizards in Chile and two maps with different styles. The areas were discretized into cells to be able to quantify and fragment the possibility of selection and aimed efforts.
+---
 
-<br>
+## Geospatial Analysis & Maps
 
-<img src="images/3DSPINpc1.2.3CompFitz.gif" style="width:100%">
+<div class="project-grid">
 
-3D PCA morpho space with morphometric variables in lizards with __FactoMineR__ and __rgl package__.
+<div class="project-card">
 
-<br>
+### Species Distribution: *Akodon montensis*
 
-<img src="images/rich_celdas.png" style="width:150%">
+<img src="images/figura_final_2.png" alt="Species Distribution Map">
 
-Lizard richness in Patagonia. Spatial discretization in 1122 hexagonal cells for species richness considering 14985 records of individual occurrences of lizards.
+A detailed species distribution map created for a research paper on the genetic diversity and ecological niche of the montane grass mouse (*Akodon montensis*) in the Atlantic Forest.
 
-<br>
+<p class="tech-stack">Tech Stack: R, GIS, Spatial Analysis</p>
 
-<img src="images/Riqueza_lat_01.png" style="width:100%">
+</div>
 
-Latitudinal lizard richness changes in Patagonia in hexagonal cells.
+<div class="project-card">
 
-<br>
+### 2022 Corrientes Province Fires
 
-<iframe name="Filter" src="https://ramfa.shinyapps.io/ramfa3_bis/" style='height: 900px; width: 100%;' frameborder="0" scrolling="yes" id="iframe">...</iframe>
+<iframe width="373" height="210" src="videos/Incendios_Ctes_fixed.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Example of an app with __shiny package__ with cumulative filters and reactive interactive maps. Developed for: Argentine Network for the Monitoring Fauna Runovers (RAMFA).
+An interactive, self-contained HTML map visualizing the fire scars from February 2022 in Corrientes Province, Argentina. Created with the `rgee` package, it integrates Google Earth Engine capabilities to show multiple layers, including smoke columns.
 
-<br>
+<p class="tech-stack">Tech Stack: R, rgee, Google Earth Engine</p>
 
-<img src="images/raster_misiones.gif" style="width:100%">
+</div>
 
-NDVI changes for Misiones Province for a year with __rgee package__ (Google Earth Engine).<br>
-<br>
-<br>
-<img src="images/NuevaEscala.png" style="width:100%">
+<div class="project-card">
 
-Environmental niche model projected to 2070 ac87 scenario for an endemic and threatened species of lizard using __dismo package__.
+### Optimal Conservation Areas in Chile
 
-<br>
+<img src="images/solo_MX_mean2.png" alt="Conservation Area Map Style 1">
+<img src="images/solo_MX_mean.png" alt="Conservation Area Map Style 2">
 
-<img src="images/spp_by_genus.png" style="width:100%">
+A spatial analysis identifying optimal conservation areas for a lizard assemblage in Chile. The landscape was discretized into cells to quantify and prioritize conservation efforts effectively. The two maps showcase different cartographic styles for presenting the results.
 
-Pie chart to summarize large amounts of data with __R-base__.
+<p class="tech-stack">Tech Stack: R, Spatial Optimization, Conservation Planning</p>
 
-<br>
+</div>
+
+<div class="project-card">
+
+### Lizard Richness in Patagonia
+
+<img src="images/rich_celdas.png" alt="Lizard Richness Map">
+
+This map visualizes species richness of lizards across Patagonia, based on 14,985 individual occurrence records. The area was spatially discretized into 1,122 hexagonal cells for accurate richness analysis.
+
+<p class="tech-stack">Tech Stack: R, Spatial Analysis, Species Distribution Modeling</p>
+
+</div>
+
+<div class="project-card">
+
+### NDVI Changes in Misiones Province
+
+<img src="images/raster_misiones.gif" alt="NDVI GIF">
+
+A GIF showcasing the Normalized Difference Vegetation Index (NDVI) changes over a full year in Misiones Province. This animation reveals seasonal patterns and vegetation health dynamics.
+
+<p class="tech-stack">Tech Stack: R, rgee, Google Earth Engine, Time Series Analysis</p>
+
+</div>
+
+<div class="project-card">
+
+### Future Niche Model Projection
+
+<img src="images/NuevaEscala.png" alt="Niche Model Projection">
+
+An environmental niche model for an endemic and threatened lizard species, projected to the year 2070 under the `ac87` climate scenario. This visualization helps assess the potential future impacts of climate change on species distribution.
+
+<p class="tech-stack">Tech Stack: R, dismo, Climate Modeling</p>
+
+</div>
+
+</div>
+
+---
+
+## Data Visualizations & Plots
+
+<div class="project-grid">
+
+<div class="project-card">
+
+### Global Climate Change Trends
+
+<img src="images/2AnnualAbsoluteTemperatureTrend.png" alt="Temperature Trend">
+<img src="images/1AnnualCO2emissionTrend.png" alt="CO2 Emissions Trend">
+<img src="images/Temp_CO2_bis.png" alt="Temperature vs CO2">
+
+A series of plots visualizing the relationship between global CO2 emissions and absolute temperature changes. Created with base R, these graphics clearly illustrate the long-term climate trends.
+
+<p class="tech-stack">Tech Stack: R, Base R Graphics, Climate Data</p>
+
+</div>
+
+<div class="project-card">
+
+### 3D Morphometric Space
+
+<img src="images/3DSPINpc1.2.3CompFitz.gif" alt="3D PCA Plot">
+
+A 3D visualization of a Principal Component Analysis (PCA) morphospace, based on lizard morphometric variables. This interactive plot helps in understanding the shape variation and relationships within the dataset.
+
+<p class="tech-stack">Tech Stack: R, FactoMineR, rgl</p>
+
+</div>
+
+<div class="project-card">
+
+### Latitudinal Richness Gradient
+
+<img src="images/Riqueza_lat_01.png" alt="Latitudinal Richness Plot">
+
+A plot illustrating the latitudinal changes in lizard species richness across Patagonia, based on the hexagonal cell analysis. This type of visualization is key for understanding large-scale biodiversity patterns.
+
+<p class="tech-stack">Tech Stack: R, Base R Graphics, Ecology</p>
+
+</div>
+
+<div class="project-card">
+
+### Data Summarization with Pie Charts
+
+<img src="images/spp_by_genus.png" alt="Pie Chart">
+
+An example of using a pie chart to effectively summarize large categorical datasets, in this case, the number of species per genus. While often criticized, pie charts can be useful for showing parts-of-a-whole at a high level.
+
+<p class="tech-stack">Tech Stack: R, Base R Graphics</p>
+
+</div>
+
+</div>
+
+---
+
+### Featured Project: RAMFA Interactive Dashboard
+
+<div class="full-width-app">
+<iframe name="Filter" src="https://ramfa.shinyapps.io/ramfa3_bis/" frameborder="0" scrolling="yes" id="iframe">...</iframe>
+</div>
