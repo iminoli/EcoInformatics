@@ -78,7 +78,166 @@ format: html
     border: 1px solid #e0e0e0;
     border-radius: 8px;
   }
+
+  /* --- NEW STYLES FOR ENLARGEABLE IMAGES --- */
+
+  /* 1. Style for the clickable images */
+  .enlargeable {
+    cursor: pointer; /* Change cursor to indicate it's clickable */
+    transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease;
+  }
+
+  /* 2. Hover effect for visual feedback */
+  .enlargeable:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    filter: brightness(1.05);
+  }
+  
+  /* 3. Styles for the modal (popup window) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Sit on top */
+    padding-top: 60px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  }
+
+  .modal-content {
+    margin: auto;
+    display: block;
+    width: 90%;
+    max-width: 900px;
+    max-height: 85%;
+    object-fit: contain; /* This makes sure the image fits without distortion */
+  }
+
+  .modal-caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 15px 0;
+    height: 30px;
+  }
+
+  .modal-close {
+    position: absolute;
+    top: 25px;
+    right: 45px;
+    color: #f1f1f1;
+    font-size: 50px;
+    font-weight: bold;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+
+  .modal-close:hover,
+  .modal-close:focus {
+    color: #bbb;
+    text-decoration: none;
+  }
+  
+  .modal-newtab {
+    position: absolute;
+    bottom: 30px;
+    right: 45px;
+    color: white;
+    background-color: #3498db;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+
+  .modal-newtab:hover {
+    background-color: #2980b9;
+  }
+
+  /* 4. Responsive adjustments for the modal */
+  @media only screen and (max-width: 768px) {
+    .modal-content {
+      width: 100%;
+    }
+    .modal-close {
+      font-size: 40px;
+      top: 15px;
+      right: 25px;
+    }
+    .modal-newtab {
+      bottom: 20px;
+      right: 25px;
+      padding: 10px 15px;
+      font-size: 14px;
+    }
+  }
 </style>
+
+<!-- Modal HTML structure (hidden by default) -->
+<div id="imageModal" class="modal">
+  <span class="modal-close">&times;</span>
+  <img class="modal-content" id="modalImage">
+  <div id="modalCaption" class="modal-caption"></div>
+  <button id="openNewTab" class="modal-newtab">Open in New Tab</button>
+</div>
+
+<script>
+// Wait for the full document to be loaded before running the script
+document.addEventListener('DOMContentLoaded', function() {
+
+  // Get the modal elements
+  const modal = document.getElementById('imageModal');
+  const modalImg = document.getElementById('modalImage');
+  const modalCaption = document.getElementById('modalCaption');
+  const newTabBtn = document.getElementById('openNewTab');
+  const closeBtn = document.getElementsByClassName('modal-close')[0];
+
+  // Get all images that we want to make enlargeable
+  const enlargeableImages = document.querySelectorAll('img.enlargeable');
+
+  // Add a click event listener to each image
+  enlargeableImages.forEach(img => {
+    img.addEventListener('click', function() {
+      modal.style.display = 'block';
+      modalImg.src = this.src;
+      modalCaption.innerHTML = this.alt;
+      newTabBtn.setAttribute('data-src', this.src); // Store the image source for the new tab button
+    });
+  });
+
+  // Function to close the modal
+  function closeModal() {
+    modal.style.display = 'none';
+  }
+
+  // Close the modal when the user clicks on <span> (x)
+  closeBtn.addEventListener('click', closeModal);
+
+  // Close the modal when the user clicks anywhere outside of the modal image
+  window.addEventListener('click', function(event) {
+    if (event.target == modal) {
+      closeModal();
+    }
+  });
+
+  // Open the image in a new tab when the button is clicked
+  newTabBtn.addEventListener('click', function() {
+    const imageSrc = this.getAttribute('data-src');
+    window.open(imageSrc, '_blank');
+  });
+
+});
+</script>
 
 # A Showcase of Data Science & Visualization
 
@@ -138,7 +297,7 @@ An interactive application developed for the Argentine Network for the Monitorin
 
 ### Species Distribution: *Akodon montensis*
 
-<img src="images/figura_final_2.png" alt="Species Distribution Map">
+<img src="images/figura_final_2.png" alt="Species Distribution Map" class="enlargeable">
 
 A detailed species distribution map created for a research paper on the genetic diversity and ecological niche of the montane grass mouse (*Akodon montensis*) in the Atlantic Forest.
 
@@ -162,8 +321,8 @@ An interactive, self-contained HTML map visualizing the fire scars from February
 
 ### Optimal Conservation Areas in Chile
 
-<img src="images/solo_MX_mean2.png" alt="Conservation Area Map Style 1">
-<img src="images/solo_MX_mean.png" alt="Conservation Area Map Style 2">
+<img src="images/solo_MX_mean2.png" alt="Conservation Area Map Style 1" class="enlargeable">
+<img src="images/solo_MX_mean.png" alt="Conservation Area Map Style 2" class="enlargeable">
 
 A spatial analysis identifying optimal conservation areas for a lizard assemblage in Chile. The landscape was discretized into cells to quantify and prioritize conservation efforts effectively. The two maps showcase different cartographic styles for presenting the results.
 
@@ -175,7 +334,7 @@ A spatial analysis identifying optimal conservation areas for a lizard assemblag
 
 ### Lizard Richness in Patagonia
 
-<img src="images/rich_celdas.png" alt="Lizard Richness Map">
+<img src="images/rich_celdas.png" alt="Lizard Richness Map" class="enlargeable">
 
 This map visualizes species richness of lizards across Patagonia, based on 14,985 individual occurrence records. The area was spatially discretized into 1,122 hexagonal cells for accurate richness analysis.
 
@@ -187,7 +346,7 @@ This map visualizes species richness of lizards across Patagonia, based on 14,98
 
 ### NDVI Changes in Misiones Province
 
-<img src="images/raster_misiones.gif" alt="NDVI GIF">
+<img src="images/raster_misiones.gif" alt="NDVI GIF" class="enlargeable">
 
 A GIF showcasing the Normalized Difference Vegetation Index (NDVI) changes over a full year in Misiones Province. This animation reveals seasonal patterns and vegetation health dynamics.
 
@@ -199,7 +358,7 @@ A GIF showcasing the Normalized Difference Vegetation Index (NDVI) changes over 
 
 ### Future Niche Model Projection
 
-<img src="images/NuevaEscala.png" alt="Niche Model Projection">
+<img src="images/NuevaEscala.png" alt="Niche Model Projection" class="enlargeable">
 
 An environmental niche model for an endemic and threatened lizard species, projected to the year 2070 under the `ac87` climate scenario. This visualization helps assess the potential future impacts of climate change on species distribution.
 
@@ -219,9 +378,9 @@ An environmental niche model for an endemic and threatened lizard species, proje
 
 ### Global Climate Change Trends
 
-<img src="images/2AnnualAbsoluteTemperatureTrend.png" alt="Temperature Trend">
-<img src="images/1AnnualCO2emissionTrend.png" alt="CO2 Emissions Trend">
-<img src="images/Temp_CO2_bis.png" alt="Temperature vs CO2">
+<img src="images/2AnnualAbsoluteTemperatureTrend.png" alt="Temperature Trend" class="enlargeable">
+<img src="images/1AnnualCO2emissionTrend.png" alt="CO2 Emissions Trend" class="enlargeable">
+<img src="images/Temp_CO2_bis.png" alt="Temperature vs CO2" class="enlargeable">
 
 A series of plots visualizing the relationship between global CO2 emissions and absolute temperature changes. Created with base R, these graphics clearly illustrate the long-term climate trends.
 
@@ -233,7 +392,7 @@ A series of plots visualizing the relationship between global CO2 emissions and 
 
 ### 3D Morphometric Space
 
-<img src="images/3DSPINpc1.2.3CompFitz.gif" alt="3D PCA Plot">
+<img src="images/3DSPINpc1.2.3CompFitz.gif" alt="3D PCA Plot" class="enlargeable">
 
 A 3D visualization of a Principal Component Analysis (PCA) morphospace, based on lizard morphometric variables. This interactive plot helps in understanding the shape variation and relationships within the dataset.
 
@@ -245,7 +404,7 @@ A 3D visualization of a Principal Component Analysis (PCA) morphospace, based on
 
 ### Latitudinal Richness Gradient
 
-<img src="images/Riqueza_lat_01.png" alt="Latitudinal Richness Plot">
+<img src="images/Riqueza_lat_01.png" alt="Latitudinal Richness Plot" class="enlargeable">
 
 A plot illustrating the latitudinal changes in lizard species richness across Patagonia, based on the hexagonal cell analysis. This type of visualization is key for understanding large-scale biodiversity patterns.
 
@@ -257,7 +416,7 @@ A plot illustrating the latitudinal changes in lizard species richness across Pa
 
 ### Data Summarization with Pie Charts
 
-<img src="images/spp_by_genus.png" alt="Pie Chart">
+<img src="images/spp_by_genus.png" alt="Pie Chart" class="enlargeable">
 
 An example of using a pie chart to effectively summarize large categorical datasets, in this case, the number of species per genus. While often criticized, pie charts can be useful for showing parts-of-a-whole at a high level.
 
