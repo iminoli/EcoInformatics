@@ -23,6 +23,10 @@ output: html_document
 <br>
 
 ## Some of my top published research papers <br> (from 29)<br>
+- Trumper, A, Montti, L, Wesz Junior, VJ, Szinwelski, N, von Below, J, Eleuterio, AA, Zarbá, L, Yanosky, A, Gasparri, I, Anticoli, A, Zurita, GA, Vazquez, FP, Oliveira-Costa, JL, __Minoli, I__, Amarilla Rodríguez, SM, Trumper, J, Roberti Vera Monge, V, de Carvalho, FG, Villagra, R, Lowenberg-Neto, P, Amicone, C, Braga Junqueira, A, & Piquer-Rodríguez, M (2026) Spatial Social-ecological land systems of the Alto Paraná triple-frontier in the Atlantic Forest of South America. Ecology & Society. In Press.<br>
+<br>
+- Gómez‑Cifuentes, A, Varela, D., Zurano, J., Munévar, A., __Minoli, I__, Gómez, VCG, Insaurralde, A & Zurita, G (2025) Dung beetle functional diversity in agricultural landscapes of the southern Atlantic forest: the role of landscape structure and mammal activity. Journal of Insect Conservation, 29 (58), 29:58. doi: https://doi.org/10.1007/s10841-025-00694-4<br>
+<br>
 - Velazco, SJE, Rose, MB, de Andrade, JFA,  __Minoli, I__ & Franklin, J (2022) flexsdm: An R package for supporting a comprehensive and flexible species distribution modeling workflow. Methods in Ecology and Evolution, early view. doi: https://doi.org/10.1111/2041-210X.13874<br>
 <br>
 - __Minoli, I__, Cacciali, P, Morando, M & Avila, LJ (2019) Predicting spatial and temporal effects of climate change on the South American lizard genus <i>Teius</i> (Squamata: Teiidae). Amphibia-Reptilia, 40: 313–326. doi: https://doi.org/10.1163/15685381-20181070<br>
