@@ -7,6 +7,24 @@ output: html_document
 __Some of my on going projects...__
 <br>
 
+## [flexsdm: An R package for supporting a comprehensive and flexible species distribution modelling workflow](https://sjevelazco.github.io/flexsdm/)<br>
+
+<a href="https://sjevelazco.github.io/flexsdm/">
+  <img  align="center"  src="images/flexsdm_logo.png" alt="NA">
+</a>
+
+- Project Collaborator “flexsdm: An R package for supporting a comprehensive and flexible species distribution modelling workflow”. Observatorio de Biodiversidad del Bosque Atlántico (OBBA), Instituto de Biología Subtropical (IBS) - Nodo Iguazú - Unidad Ejecutora del Consejo Nacional de Investigaciones Científicas y Técnicas - Universidad Nacional de Misiones.
+- From 2022 to present.
+- I performed as function tester for the package.
+- I contributed with suggestions and ideas regarding function arguments.
+- I contributed with the creation of vignettes or articles for the R package.
+- I am involved in support and responses to errors and bugs reports from users of the package on the GNU-Linux OS.
+<br>
+<br>
+[More details about this project](flexsdm.html){target="_blank" .btn .btn-primary}
+<br>
+<br>
+
 ## [Red Argentina de Monitoreo de Fauna Atropellada - RAMFA](https://fauna-atropellada.org.ar/)<br>
 
 <a href="https://fauna-atropellada.org.ar/">

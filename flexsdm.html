@@ -11,7 +11,7 @@
 
 
 
-<title>Epicollect5:   Free and easy-to-use mobile data-gathering platform</title>
+<title>flexsdm: An R package for supporting a comprehensive and flexible species distribution modelling workflow</title>
 
 <script src="site_libs/header-attrs-2.31/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -296,88 +296,51 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Epicollect5: <br> Free and easy-to-use
-mobile data-gathering platform</h1>
+<h1 class="title toc-ignore">flexsdm: An R package for supporting a
+comprehensive and flexible species distribution modelling workflow</h1>
 
 </div>
 
 
 <style>
-.project-preview-card {
-  border: 1px solid #ddd;
-  border-radius: 12px;
-  padding: 30px;
-  text-align: center;
-  background-color: #f9f9f9;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-  margin: 20px 0;
-}
-
-.preview-image {
-  max-width: 100%;
-  height: auto;
-  border-radius: 8px;
-  border: 1px solid #eee;
-  margin-bottom: 20px;
-  transition: transform 0.2s;
-}
-
-.preview-image:hover {
-  transform: scale(1.01);
-  cursor: zoom-in;
-}
-
-.secondary-text {
-  font-style: italic;
-  color: #555;
-  margin: 15px 0 25px 0;
-  font-size: 0.95em;
-  line-height: 1.4;
-}
-
-.btn-visit {
-  font-size: 1.1em;
-  padding: 10px 25px;
-}
-
-@media (min-width: 992px) {
-  .secondary-img-wrapper {
-    max-width: 80%;
-    margin: 0 auto;
+  /* Contenedor dinámico que se ajusta al alto de la pantalla */
+  .iframe-container {
+    position: relative;
+    width: 100%;
+    /* 80vh asegura que ocupe el 80% del alto de la pantalla del usuario */
+    height: 85vh; 
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
   }
-}
+
+  .responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+
+  /* Ajuste para pantallas pequeñas (celulares) */
+  @media (max-width: 768px) {
+    .iframe-container {
+      height: 70vh; /* Un poco más bajo en móvil para ver el título y el link */
+    }
+  }
 </style>
-<div class="project-preview-card">
-<p><img src="images/epicollect_prev.png" alt="Epicollect5 Preview" class="preview-image"></p>
-<h3>
-Access the official documentation
-</h3>
-<p>
-Due to security policies on the original site, the platform must open in
-a new window.
+<div class="iframe-container">
+<p><iframe 
+    class="responsive-iframe" 
+    src="https://flexsdm-landing-page.base44.app" 
+    allowfullscreen> </iframe></p>
+</div>
+<p style="text-align: center;">
+<a href="https://flexsdm-landing-page.base44.app" target="_blank" class="btn btn-primary">
+<i class="fa fa-external-link"></i> View in full screen (new tab) </a>
 </p>
-<p><a href="https://docs.epicollect.net/" target="_blank" class="btn btn-primary btn-visit">
-<i class="fa fa-external-link"></i> Open Epicollect5 in a new tab
-</a></p>
-<p><br></p>
-<div class="secondary-img-wrapper">
-<p><a href="images/epicollect_projects.png" target="_blank" title="Click to enlarge">
-<img src="images/epicollect_projects.png" alt="My Epicollect Projects" class="preview-image">
-</a></p>
-<p class="secondary-text">
-Some of the projects I have created, managed, or supervised on this
-citizen science platform to collect biological data in the field.
-</p>
-</div>
-<p><br></p>
-<div id="about-this-project" class="section level3">
-<h3>About this project</h3>
-<p>Epicollect5 is an essential tool for field data collection, and it’s
-especially useful for my biodiversity and conservation projects. It
-allows you to create custom forms and capture geospatial data for
-free.</p>
-</div>
-</div>
 
 
 
