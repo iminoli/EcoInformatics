@@ -7,10 +7,10 @@ output: html_document
 __Some of my on going projects...__
 <br>
 
-## [flexsdm: An R package for supporting a comprehensive and flexible species distribution modelling workflow](https://sjevelazco.github.io/flexsdm/)<br>
+## [flexsdm:<br>An R package for supporting a comprehensive and flexible species distribution modelling workflow](https://sjevelazco.github.io/flexsdm/)<br>
 
 <a href="https://sjevelazco.github.io/flexsdm/">
-  <img  align="center"  src="images/flexsdm_logo.png" alt="NA">
+  <img  align="center"  src="https://raw.githubusercontent.com/iminoli/EcoInformatics/refs/heads/master/images/flexsdm_figure1.png" alt="NA">
 </a>
 
 - Project Collaborator “flexsdm: An R package for supporting a comprehensive and flexible species distribution modelling workflow”. Observatorio de Biodiversidad del Bosque Atlántico (OBBA), Instituto de Biología Subtropical (IBS) - Nodo Iguazú - Unidad Ejecutora del Consejo Nacional de Investigaciones Científicas y Técnicas - Universidad Nacional de Misiones.
