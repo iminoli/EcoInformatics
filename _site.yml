@@ -12,7 +12,7 @@ navbar:
         - text: "All Projects"
           href: projects.html
         - text: "---"
-        - text: "flexsdm (An R package)"
+        - text: "flexsdm (A modelling R package)"
           href: flexsdm.html
         - text: "RAMFA (Wildlife roadkills)"
           href: ramfa.html
