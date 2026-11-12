@@ -72,7 +72,7 @@ __Some projects I have been involved in...__
   "Red Argentina De Monitoreo De Fauna Atropellada"<br>
   "Atropellamientos Fauna Nea".
 - From 2020 to 2026.
-- I develop the from applications for entering spatial data through cell phones and management of the outcome databases.
+- I designed and developed the forms apps for entering spatial data through cell phones and management of the outcome databases.
 <br>
 <br>
 [More details about this project](epicollect5.html){target="_blank" .btn .btn-primary}
