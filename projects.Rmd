@@ -4,7 +4,7 @@ output: html_document
 ---
 <br>
 
-__Some of my on going projects...__
+__Some projects I have been involved in...__
 <br>
 
 ## [flexsdm:<br>An R package for supporting a comprehensive and flexible species distribution modelling workflow](https://sjevelazco.github.io/flexsdm/)<br>
@@ -32,27 +32,27 @@ __Some of my on going projects...__
 </a>
 
 - Project Creator - Collaborator “Red Argentina de Monitoreo de Fauna Atropellada - RAMFA”. Observatorio de Biodiversidad del Bosque Atlántico (OBBA), Instituto de Biología Subtropical (IBS) - Nodo Iguazú - Unidad Ejecutora del Consejo Nacional de Investigaciones Científicas y Técnicas - Universidad Nacional de Misiones.
-- From 2019 to present.
-- I am the database administrator and developer of the citizen science mobile app, manager of the outcome databases.
-- I perform the spatial analysis - metrics - plots, web applications and maps.
-- I am also one of the reptiles curator.
+- From August 2019 to November 2026.
+- I was the database administrator and developer of the citizen science mobile app, manager of the outcome databases.
+- I performed the spatial analysis - metrics - plots, web applications and maps.
+- I was also one of the reptiles curator.
 <br>
 <br>
 [More details about this project](ramfa.html){target="_blank" .btn .btn-primary}
 <br>
 <br>
 
-## [MapBiomas Trinational Atlantic Forest](https://bosqueatlantico.mapbiomas.org/es)
+## [MapBiomas Trinational Atlantic Forest](https://bosqueatlantico.mapbiomas.org/)
 
-<a href="https://bosqueatlantico.mapbiomas.org/es">
-  <img  align="center"  src="https://bosqueatlantico.mapbiomas.org/wp-content/uploads/sites/8/2024/03/mapbiomas-bosque-atlantico.png" alt="NA">
+<a href="https://bosqueatlantico.mapbiomas.org/">
+  <img  align="center"  src="https://bosqueatlantico.mapbiomas.org/wp-content/uploads/sites/14/2026/10/mapbiomas-bosque-atlantico.png" alt="NA">
 </a>
 
 - Project Collaborator “MapBiomas Trinational Atlantic Forest”. Created as a collaborative network of specialists from Argentina, Brazil and Paraguay, in topics such as land use, satellite remote sensing, GIS and programming.
-- Collaboration period from 2019 to 2025.
+- Collaboration period from October 2019 to November 2025.
 - Contibutions in versions 1.0, 2.0 and 3.0 of MapBiomas.
 - I use google earth engine to collect samples of different landuse or landcover.
-- I participate in successive discussions and improvements in the MapBiomas versions or collections and in the applied methods.
+- I participated in successive discussions and improvements in the MapBiomas versions or collections and in the applied methods.
 <br>
 <br>
 [More details about this project](mapbiomas.html){target="_blank" .btn .btn-primary}

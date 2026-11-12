@@ -35,13 +35,13 @@ title: "MapBiomas Trinational Atlantic Forest"
 <div class="iframe-container">
   <iframe 
     class="responsive-iframe" 
-    src="https://bosqueatlantico.mapbiomas.org/en/project/" 
+    src="https://bosqueatlantico.mapbiomas.org/" 
     allowfullscreen>
   </iframe>
 </div>
 
 <p style="text-align: center;">
-  <a href="https://bosqueatlantico.mapbiomas.org/en/project/" target="_blank" class="btn btn-primary">
+  <a href="https://bosqueatlantico.mapbiomas.org/" target="_blank" class="btn btn-primary">
     <i class="fa fa-external-link"></i> View in full screen (new tab)
   </a>
 </p>
