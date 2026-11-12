@@ -14,7 +14,7 @@ __Some projects I have been involved in...__
 </a>
 
 - Project Collaborator “flexsdm: An R package for supporting a comprehensive and flexible species distribution modelling workflow”. Observatorio de Biodiversidad del Bosque Atlántico (OBBA), Instituto de Biología Subtropical (IBS) - Nodo Iguazú - Unidad Ejecutora del Consejo Nacional de Investigaciones Científicas y Técnicas - Universidad Nacional de Misiones.
-- From 2022 to present.
+- From 2022 to 2026.
 - I performed as function tester for the package.
 - I contributed with suggestions and ideas regarding function arguments.
 - I contributed with the creation of vignettes or articles for the R package.

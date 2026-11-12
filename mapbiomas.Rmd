@@ -27,7 +27,7 @@ title: "MapBiomas Trinational Atlantic Forest"
   /* Ajuste para pantallas pequeñas (celulares) */
   @media (max-width: 768px) {
     .iframe-container {
-      height: 70vh; /* Un poco más bajo en móvil para ver el título y el link */
+      height: 70vh; /* Un poco más bajo en celular para ver el título y el link */
     }
   }
 </style>

@@ -8,7 +8,7 @@ title: "EcoInformatics @ ~ <br><br> About me"
 - __Name:__<br>
 Ignacio Minoli
 - __Occupation:__<br>
-Specialist in Biodiversity Databases, GIS and R Programming for environmental decision making
+Specialist in Biodiversity Databases, GIS, and R Programming for environmental decision making
 - __Highest Academic Degree:__<br>
 PhD in Biological Sciences
 - __Core Skills:__<br>

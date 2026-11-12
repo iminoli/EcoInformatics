@@ -22,7 +22,7 @@ output: html_document
 - Diversification and evolutionary histories of Patagonian steppe lizards (2020). Morando M., Medina C.D., __Minoli, I.__, Pérez C.H.F., Sites Jr, J.W. & Avila L.J., p 217-254 in: Lizards of Patagonia: Diversity, Systematics, Biogeography and Biology of the Reptiles at the End of the World. Eds. Mariana Morando & Luciano Javier Avila. Life Sciences Series, Springer International Publishing AG, Gewerbestrasse 11, 6330 Cham, Switzerland. doi: https://doi.org/10.1007/978-3-030-42752-8_9<br>
 <br>
 
-## Some of my top published research papers <br> (from 30)<br>
+## Some of my top published research papers <br> (from 30).<br>
 - Trumper, A., Montti, L., Wesz Junior, V.J., Szinwelski, N., von Below, J., Eleuterio, A.A., Zarbá, L., Yanosky, A., Gasparri, I., Anticoli, A., Zurita, G.A., Vazquez, F.P., Oliveira-Costa, J.L., __Minoli, I.__, Amarilla Rodríguez, S.M., Trumper, J., Roberti Vera Monge, V., de Carvalho, F.G., Villagra, R., Lowenberg-Neto, P., Amicone, C., Braga Junqueira, A., & Piquer-Rodríguez, M. (2026) Spatial Social-ecological land systems of the Alto Paraná triple-frontier in the Atlantic Forest of South America. Ecology and Society, 31 (2), :38. doi: https://doi.org/10.5751/ES-17392-310238<br>
 <br>
 - Gómez‑Cifuentes, A., Varela, D., Zurano, J., Munévar, A., __Minoli, I.__, Gómez, V.C.G., Insaurralde, A. & Zurita, G. (2025) Dung beetle functional diversity in agricultural landscapes of the southern Atlantic forest: the role of landscape structure and mammal activity. Journal of Insect Conservation, 29 (58), 29:58. doi: https://doi.org/10.1007/s10841-025-00694-4<br>
